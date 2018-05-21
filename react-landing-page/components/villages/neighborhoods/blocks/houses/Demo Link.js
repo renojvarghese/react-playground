@@ -6,9 +6,9 @@ class DemoLink extends React.Component {
     return (
       <div>
         <a href="#">
-          <span className="demo-link">
+          <div className="demo-link" >
           Demo
-          </span>
+        </div>
         </a>
       </div>
     )
