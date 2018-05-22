@@ -4,7 +4,6 @@ import { Container, Row, Col } from 'react-grid-system';
 import Navigation from './blocks/Navigation.js';
 import CallToAction from './blocks/Call To Action.js';
 import SlackChannel from './blocks/houses/Slack Channel.js';
-
 class Header extends React.Component {
   render() {
     return (
@@ -14,7 +13,7 @@ class Header extends React.Component {
             <Navigation/>
           </Row>
           <Row>
-            <CallToAction/>
+            <CallToAction title={this.props.title} subtitle={this.props.subtitle}/>
           </Row>
           <Row>
             <SlackChannel/>
@@ -24,5 +23,4 @@ class Header extends React.Component {
     )
   }
 }
-
 module.exports = Header;
