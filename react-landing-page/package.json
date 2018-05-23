@@ -4,6 +4,7 @@
   "description": "using react to create components and views",
   "main": "index.js",
   "dependencies": {
+    "firebase": "^5.0.3",
     "react": "^16.3.2",
     "react-dom": "^16.3.2",
     "react-grid-system": "^3.2.3",
