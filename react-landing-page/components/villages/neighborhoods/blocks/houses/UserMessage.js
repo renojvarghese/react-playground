@@ -3,12 +3,7 @@ import ReactDOM from 'react-dom';
 import * as firebase from "firebase";
 
 const config = {
-    apiKey: "AIzaSyCPwcr4aSRZufIij-PK--hclXwJhFbjDT0",
-    authDomain: "chat-bot-40ff5.firebaseapp.com",
-    databaseURL: "https://chat-bot-40ff5.firebaseio.com",
-    projectId: "chat-bot-40ff5",
-    storageBucket: "chat-bot-40ff5.appspot.com",
-    messagingSenderId: "689550988440"
+
   };
 firebase.initializeApp(config);
 
